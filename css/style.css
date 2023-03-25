@@ -65,16 +65,27 @@ body {
   font-weight: 400;
   color: #555;
 }
-.hero-section {
-  background-color: #fae5d3;
-  padding: 9.6rem 4.8rem;
+/****************************/
+/* GENRAL RESUABLE COMPONENTS */
+/****************************/
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
-.hero {
-  max-width: 130rem;
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
-  align-items: center;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 .hero-primary {
   font-size: 5.2rem;
@@ -125,6 +136,110 @@ body {
 }
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+/****************************/
+/* HEADER */
+/****************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fae5d3;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+.omnifood-logo {
+  height: 2.4rem;
+}
+/****************************/
+/* NAVGATION*/
+/****************************/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+.main-link:link,
+.main-link:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.main-link:active,
+.main-link:hover {
+  color: #b8651b;
+}
+.main-link.another-nav:link,
+.main-link.another-nav:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 170px;
+  color: #fff;
+  background-color: #e67e22;
+}
+.main-link.another-nav:active,
+.main-link.another-nav:hover {
+  background-color: #e98b38;
+}
+
+/****************************/
+/* HERO SECTION */
+/****************************/
+.hero-section {
+  background-color: #fae5d3;
+  /* padding: 9.6rem 4.8rem; */
+}
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-describtion {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
+.customers {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 6.4rem;
+}
+.customers-imgs {
+  display: flex;
+}
+.customers-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fae5d3;
+}
+.customers-imgs img:last-child {
+  margin: 0;
+}
+.customers-description {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.customers-description span {
+  color: #b8651b;
+  font-weight: 600;
 }
 .hero-img {
   width: 100%;
