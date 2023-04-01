@@ -47,7 +47,31 @@
 .main-link.another-nav:hover {
   background-color: #e98b38;
 }
-
+/****************************/
+/* Featured In SECTION */
+/****************************/
+.featured-section {
+  padding: 4.8rem 3.2rem 0;
+}
+.heading-featured {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4.8rem;
+  color: #888;
+}
+.five-logos {
+  display: flex;
+  justify-content: space-around;
+}
+.five-logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  -webkit-filter: brightness(0);
+  opacity: 50%;
+}
 /****************************/
 /* HERO SECTION */
 /****************************/
