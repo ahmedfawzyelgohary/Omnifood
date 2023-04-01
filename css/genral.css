@@ -44,6 +44,7 @@
 -----> 06-BORDER RADIUS
 
 -Default: 170px
+-Another value: 11px
 
 -----> 07- WHITE SPACE
 
@@ -174,4 +175,7 @@ body {
 }
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+strong {
+  font-weight: 500;
 }
