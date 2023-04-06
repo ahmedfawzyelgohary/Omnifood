@@ -295,6 +295,8 @@
 /* TESTIMONIALS SECTION */
 /****************************/
 .testimonials-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #fae5d3;
 }
 .testimonials {
@@ -328,6 +330,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
+  padding: 1.6rem;
 }
 
 .gallery-item img {
