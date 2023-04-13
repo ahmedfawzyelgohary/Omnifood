@@ -466,4 +466,13 @@
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  /* <-----> */
+  height: 50rem;
 }
