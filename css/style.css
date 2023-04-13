@@ -457,3 +457,13 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
+/****************************/
+/* CTA SECTION */
+/****************************/
+.cta-section {
+  padding: 9.6rem 0;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
