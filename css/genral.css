@@ -142,6 +142,8 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
+
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -159,6 +161,10 @@ body {
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
+  /* FOR btn just do this */
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
 }
 .btn--start:link,
 .btn--start:visited {
