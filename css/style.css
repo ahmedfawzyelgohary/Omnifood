@@ -476,3 +476,15 @@
   /* <-----> */
   height: 50rem;
 }
+.cta-text-box {
+}
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.2),
+      rgba(230, 125, 34, 0.2)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
