@@ -33,7 +33,9 @@
 #fdf2e9
 #fae5d3
 #eb984e
-- Shades:#b8651b
+- Shades:
+#b8651b
+ #45260a
 - Accents:
 - Greys:
 #676161 -->(allowed on  #fae5d3)
@@ -186,6 +188,12 @@ body {
   color: #333;
   /* border: 2px solid #fff; -->(to be inside should make box shadow inset)  */
   box-shadow: inset 0 0 0 2px #fff;
+}
+.btn-form {
+  background-color: #45260a;
+  color: #e6e6e6;
+  align-self: end;
+  padding: 1.2rem;
 }
 .link:link,
 .link:visited {
