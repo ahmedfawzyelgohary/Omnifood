@@ -474,8 +474,6 @@
   -o-border-radius: 11px;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
-  /* <-----> */
-  height: 50rem;
 }
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
@@ -530,4 +528,8 @@
 }
 .cta-form::placeholder {
   color: #aaa;
+}
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.596);
 }

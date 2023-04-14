@@ -145,6 +145,10 @@ body {
   letter-spacing: 0.75px;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
 .btn,
 .btn:link,
 .btn:visited {
@@ -194,6 +198,10 @@ body {
   color: #e6e6e6;
   align-self: end;
   padding: 1.2rem;
+}
+.btn-form:hover {
+  background-color: #fff;
+  color: #333;
 }
 .link:link,
 .link:visited {
