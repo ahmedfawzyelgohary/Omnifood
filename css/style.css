@@ -539,6 +539,10 @@
 .footer {
   padding: 9.6rem 0;
 }
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
 .omnifood-logo {
   display: block;
   margin-bottom: 2.4rem;
@@ -552,7 +556,12 @@
   width: 2.4rem;
   height: 2.4rem;
 }
-
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #7b6b6b;
+  margin-top: auto;
+}
 .footer-heading {
   font-size: 1.8rem;
   font-weight: 500;
