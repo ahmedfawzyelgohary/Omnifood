@@ -1,6 +1,8 @@
 /****************************/
 /* BELWO 1344px (smalller desktops)*/
 /****************************/
+/* 1 rem = 16px */
+
 @media (max-width: 84em) {
   .hero {
     max-width: 120rem;
@@ -19,6 +21,10 @@
 /* 9/16 */
 @media (max-width: 75em) {
   html {
+    /* i want to make it 9px so 
+    9/16=0.5625
+    then make it a hundred pricent 56.25%
+    */
     font-size: 56.25%;
   }
 }
