@@ -89,6 +89,16 @@
   .gallery {
     grid-template-columns: repeat(6, 1fr);
   }
+  .cta {
+    /* all=5 so 3/5=60% and 2/5=40%  */
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn-form {
+    margin-top: 1.2rem;
+  }
 }
 /* - FONT SIZE SYSTEM (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 - 
 
