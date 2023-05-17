@@ -61,6 +61,7 @@
   .hero {
     grid-template-columns: 1fr;
     padding: 0 6.4rem;
+    gap: 6.4rem;
   }
   .hero-img {
     width: 60%;
@@ -71,6 +72,22 @@
   }
   .customers {
     justify-content: center;
+    margin-top: 3.2rem;
+  }
+  .five-logos img {
+    height: 2.4rem;
+  }
+  .step-number {
+    font-size: 8.6rem;
+  }
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .testimonials-section {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 /* - FONT SIZE SYSTEM (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 - 
