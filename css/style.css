@@ -89,6 +89,10 @@
   align-items: center;
 }
 
+.hero-img {
+  width: 100%;
+}
+
 .hero-describtion {
   font-size: 2rem;
   line-height: 1.5;
@@ -125,9 +129,6 @@
 .customers-description span {
   color: #b8651b;
   font-weight: 600;
-}
-.hero-img {
-  width: 100%;
 }
 /****************************/
 /*SECTION HOW */

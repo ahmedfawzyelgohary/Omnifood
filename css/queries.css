@@ -28,7 +28,7 @@
     font-size: 56.25%;
   }
   .grid {
-    column-gap: gap 4.8rem;
+    gap: 4.8rem;
     row-gap: 8rem;
   }
   .heading-secondary {
@@ -48,6 +48,29 @@
   }
   .testimonial-continer {
     padding: 9.6rem 3.2rem;
+  }
+}
+/****************************/
+/* BELWO 960px (TABLETS)*/
+/****************************/
+@media (max-width: 60em) {
+  html {
+    /* i want make it 8px so 8/16=0.5=50% */
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 6.4rem;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .customers {
+    justify-content: center;
   }
 }
 /* - FONT SIZE SYSTEM (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 - 
