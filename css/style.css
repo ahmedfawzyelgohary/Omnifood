@@ -47,6 +47,18 @@
 .main-link.another-nav:hover {
   background-color: #e98b38;
 }
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
 /****************************/
 /* Featured In SECTION */
 /****************************/
