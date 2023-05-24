@@ -99,6 +99,30 @@
   .btn-form {
     margin-top: 1.2rem;
   }
+  /* mobile navigation */
+  .btn-mobile-nav {
+    display: block;
+  }
+  .main-nav {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-link:link,
+  .main-link:visited {
+    font-size: 3rem;
+    font-weight: 600;
+  }
 }
 /*  */
 /* - FONT SIZE SYSTEM (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 - 
